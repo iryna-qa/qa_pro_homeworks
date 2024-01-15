@@ -3,7 +3,7 @@
 'number' + 3 + 3 /* concatenation occurs in the case of string and + 
 answer: number33 */
 
-null + 3 /* 0 + 3 =3
+null + 3 /* 0 plus 3 equals 3
 Answer: 3 */
 
 5 && "qwerty" /* Opeartor AND returns first false operand or the last true operand if all is true. 
@@ -66,6 +66,6 @@ false && (false || true); /* first we evaluate the pair in the brackets: false o
 than we have false && true. So if one of the conditions is false, we have false output
 answer: false */
 
-(+null == false) < 1 ** 5; /* first we put 1 to power of 5 and this gives 1. From the previous task (line 52) we know that expression in the brackets 
+(+null == false) < 1 ** 5; /* first we put 1 to power of 5 and this gives 1. From the previous task (line 57) we know that expression in the brackets 
 equals to 1. So again we have 1 < 1.
 Answer: false. */
